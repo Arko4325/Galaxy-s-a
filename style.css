@@ -1,3 +1,31 @@
+.cart {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #020302;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+
+.product {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+}
+
+
+#cart-count {
+  transition: all 0.3s;
+}
+
+
+
+
+
 /* Базові налаштування */
 body {
     margin: 0;
@@ -210,7 +238,7 @@ footer h3 { margin-top: 0; font-size: 1.5em; }
 }
 
 /* Кнопка "Придбати" */
-.cta-button {
+.buy-btn{
     display: block;
     text-align: center;
     text-decoration: none;
@@ -222,6 +250,6 @@ footer h3 { margin-top: 0; font-size: 1.5em; }
     transition: background-color 0.2s ease;
 }
 
-.cta-button:hover {
+.buy-btn:hover {
     background-color: #0056b3;
 }
